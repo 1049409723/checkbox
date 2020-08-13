@@ -9,7 +9,7 @@ const {promisify} = require('util');
 const axios = require('axios');
 const timeAsync = promisify(setTimeout);   
         let msg =""
-        let cookie = ";bili_jct=b209003cf8e7f18e7bff601c7a581152;author=wenmoux"//这里填cookie
+        let cookie = "_uuid=5017AC9A-22CD-C543-F707-4181775FB8C239517infoc; buvid3=0974E3A4-FD8C-466A-8176-766A3AB35C8270406infoc; sid=8onoegdx; CURRENT_FNVAL=16; rpdid=|(um|RYYRJuY0J'ulmR||Rkl|; DedeUserID=344508893; DedeUserID__ckMd5=29a29bb2ae053464; SESSDATA=c0b1a35b%2C1609557134%2Cf9164*71; bili_jct=3814b67c39c1562dee6cf4f06ed71eff; LIVE_BUVID=AUTO4615950599218651; CURRENT_QUALITY=116; bp_t_offset_344508893=420326600767302529; PVID=1; finger=789868814; bp_video_offset_344508893=422820245892834808; bsource=search_baidu"//这里填cookie
                 let crsf = cookie.match(/bili_jct=(.+)/)[1]
         let header = {
             headers: {
